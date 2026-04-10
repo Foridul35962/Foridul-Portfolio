@@ -158,7 +158,7 @@ function ProjectCard({ project }: { project: Project }) {
       >
         <div className="relative h-44 overflow-hidden">
           <Image
-            src={`/${project.name.toLowerCase()}.png`}
+            src={`/${project.name}.png`}
             alt={project.name}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
