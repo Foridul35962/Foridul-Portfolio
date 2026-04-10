@@ -81,7 +81,7 @@ function FeaturedProjectCard({ project }: { project: Project }) {
             <div className="relative h-full w-full flex items-center justify-center overflow-hidden">
               {/* Image */}
               <Image
-                src="/LaborLedger.png"
+                src="/ClinicFlow.png"
                 alt={project.name}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
