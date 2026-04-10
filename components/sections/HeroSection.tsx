@@ -14,6 +14,7 @@ const socialLinks = [
 export default function HeroSection() {
   const typedText = useTypingEffect([
     "Full-Stack Developer",
+    "Frontend Developer",
     "Backend Engineer",
     "System Designer",
     "DSA Problem Solver",
@@ -117,7 +118,7 @@ export default function HeroSection() {
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://drive.google.com/your-cv-link"
+                href="https://drive.google.com/file/d/117uw7WspIYRsUyXdPLqdxCt2sCkJMBhl/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 px-6 py-3 glass border border-white/10 hover:border-indigo-500/50 text-white font-semibold rounded-xl transition-all duration-200 hover:scale-105"
@@ -175,11 +176,14 @@ export default function HeroSection() {
               <div className="relative w-72 h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-2 border-white/10 glow-indigo">
                 {/* Placeholder gradient */}
                 <div className="w-full h-full bg-gradient-to-br from-slate-800 via-slate-700 to-indigo-900/50 flex flex-col items-center justify-center gap-3">
-                  <Image src="/profile.jpg" alt="Foridul Ibne Qauser" fill className="object-cover" />
-                  {/* <div className="w-20 h-20 rounded-full bg-indigo-500/20 border-2 border-indigo-500/30 flex items-center justify-center">
-                    <span className="font-display text-3xl font-bold text-gradient">FQ</span>
-                  </div>
-                  <p className="text-slate-500 text-xs font-mono">[ your photo here ]</p> */}
+                  <Image
+                    src="/profile.jpg"
+                    alt="Foridul Ibne Qauser"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 400px"
+                    priority
+                    className="object-cover"
+                  />
                 </div>
               </div>
 
@@ -212,7 +216,7 @@ export default function HeroSection() {
                 className="absolute top-1/2 -right-12 glass border border-white/10 rounded-xl px-3 py-2 text-xs font-mono text-indigo-300 hidden lg:block"
               >
                 <span className="flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-indigo-600 animate-pulse" />
                   Backend Dev
                 </span>
               </motion.div>
@@ -228,7 +232,7 @@ export default function HeroSection() {
           className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-6"
         >
           {[
-            { value: "4+", label: "Projects Built" },
+            { value: "10+", label: "Projects Built" },
             { value: "300+", label: "LeetCode Problems" },
             { value: "5+", label: "Technologies" },
             { value: "∞", label: "Learning Drive" },
