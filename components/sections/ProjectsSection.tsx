@@ -25,7 +25,7 @@ const projects: Project[] = [
       "A full-stack clinic management platform with patient records, appointment scheduling, doctor dashboards, and real-time notifications. Built with a microservices architecture to handle high throughput.",
     tech: ["Next.js", "Node.js", "MongoDB", "Redis", "Docker", "JWT"],
     github: "https://github.com/Foridul35962/ClinicFlow",
-    demo: "#",
+    demo: "https://clinicflow-1.vercel.app/",
     featured: true,
     gradient: "from-cyan-500/10 via-blue-500/5 to-indigo-500/10",
     accentColor: "text-cyan-400",
