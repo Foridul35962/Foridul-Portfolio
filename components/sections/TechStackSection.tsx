@@ -74,7 +74,7 @@ export default function TechStackSection() {
           {categories.map((cat) => (
             <StaggerItem key={cat.title}>
               <motion.div
-                whileHover={{ scale: 1.01 }}
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
                 className={`glass rounded-2xl p-6 border ${cat.border} bg-gradient-to-br ${cat.color} group h-full`}
               >
