@@ -103,9 +103,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-slate-600 text-xs font-mono flex items-center gap-1.5">
-            © {new Date().getFullYear()} Foridul Ibne Qauser. Built with
-            <Heart size={10} className="text-indigo-500 fill-indigo-500" />
-            and Next.js
+            © {new Date().getFullYear()} Foridul Ibne Qauser.
           </p>
           <button
             onClick={scrollToTop}
