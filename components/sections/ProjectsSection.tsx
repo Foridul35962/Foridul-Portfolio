@@ -19,13 +19,13 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "ClinicFlow",
+    name: "HealthNexa",
     tagline: "Healthcare Management System",
     description:
-      "A full-stack clinic management platform with patient records, appointment scheduling, doctor dashboards, and real-time notifications. Built with a microservices architecture to handle high throughput.",
-    tech: ["Next.js", "Node.js", "MongoDB", "Redis", "Docker", "JWT"],
-    github: "https://github.com/Foridul35962/ClinicFlow",
-    demo: "https://clinicflow-1.vercel.app/",
+      "HealthNexa is a full-stack healthcare platform connecting patients, hospitals, and pharmacies through AI-powered symptom analysis, geo-based discovery, slot-based appointment booking, QR check-in, and real-time queue tracking.",
+    tech: ["Next.js", "Express.js", "Mongoose", "Gemini API", "Redux Toolkit", "Redis", "Docker", "JWT"],
+    github: "https://github.com/Foridul35962/HealthNexa",
+    demo: "https://health-nexa.vercel.app/",
     featured: true,
     gradient: "from-cyan-500/10 via-blue-500/5 to-indigo-500/10",
     accentColor: "text-cyan-400",
@@ -81,7 +81,7 @@ function FeaturedProjectCard({ project }: { project: Project }) {
             <div className="relative h-full w-full flex items-center justify-center overflow-hidden">
               {/* Image */}
               <Image
-                src="/ClinicFlow.png"
+                src="/HealthNexa.png"
                 alt={project.name}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
