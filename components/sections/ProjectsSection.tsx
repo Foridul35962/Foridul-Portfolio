@@ -84,7 +84,9 @@ function FeaturedProjectCard({ project }: { project: Project }) {
                 src="/HealthNexa.png"
                 alt={project.name}
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+                className="object-fill group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             {/* Tech overlay */}
@@ -161,6 +163,7 @@ function ProjectCard({ project }: { project: Project }) {
             src={`/${project.name}.png`}
             alt={project.name}
             fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
 
